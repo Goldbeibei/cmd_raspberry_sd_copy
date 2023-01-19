@@ -1,5 +1,5 @@
 @echo off
-echo %cd%
-CommandLineDiskImager.exe %cd%\\raspberry.img F
+cd CommandLineDiskImager\\
+CommandLineDiskImager.exe %cd%\\..\\raspberry.img F
 echo.
 pause
