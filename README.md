@@ -1,7 +1,10 @@
-# 樹莓派自動SD卡拷貝一鍵腳本-第四版
+# 樹莓派自動SD卡拷貝一鍵腳本-第五版
 **!!需自行加入raspberry.img至根目錄!!**
 ## 新增
-1. 更新CommandLineDiskImgear Version 0.0.0.2改成使用Version 0.0.0.3
+1. 新增check_all_disk.bat可以顯示所有盤符
+
+## 使用程式：
+- 使用CommandLineDiskImgear Version 0.0.0.3
 
 ## 目前功能：
 - 可以一鍵燒錄raspberry.img(需自備並放置於根目錄)到F盤
@@ -16,7 +19,7 @@
 記得先插入SD卡，再點選
 
 ## 未來更新
-1. 可以顯示所有盤符
+1. ~~可以顯示所有盤符~~(第五版)
 2. 可以輸入盤符
 3. 可以格式化盤符
 4. 開發完整bat小型使用者介面

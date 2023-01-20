@@ -1,7 +1,9 @@
+::自動燒錄raspberry.img到F:
 @echo off
 cd CommandLineDiskImager\\
 call CommandLineDiskImager.exe %cd%\\..\\raspberry.img F
 
+::確認錯誤代碼(開發用)
 rem echo %errorlevel%
 
 IF %errorlevel% EQU 0 echo 寫入成功
