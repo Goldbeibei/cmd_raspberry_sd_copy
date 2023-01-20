@@ -1,9 +1,9 @@
-# 樹莓派自動SD卡拷貝一鍵腳本-第三版
+# 樹莓派自動SD卡拷貝一鍵腳本-第四版
 **!!需自行加入raspberry.img至根目錄!!**
 ## 新增
-1.已添加MIT license
-2.使用命令行燒錄軟體[CommandLineDiskImgear](https://github.com/davidferguson/CommandLineDiskImager/releases/tag/0.0.0.2)作為燒錄器使用
-3.目前功能：
+1. 更新CommandLineDiskImgear Version 0.0.0.2改成使用Version 0.0.0.3
+
+## 目前功能：
 - 可以一鍵燒錄raspberry.img(需自備並放置於根目錄)到F盤
 
 ## 使用步驟
